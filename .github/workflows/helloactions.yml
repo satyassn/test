@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs:
   hello-actions:
     runs-on: ubuntu-latest
-  steps:
-    - name: welcome-step
-      run: echo "Hello actions"
-    - name: goodbye-step
-      run: echo "Good bye actions"
+    steps:
+      - name: welcome-step
+        run: echo "Hello actions"
+      - name: goodbye-step
+        run: echo "Good bye actions"
