@@ -14,9 +14,9 @@ jobs:
         run: |
           pwd
           ls
-          cd "test/code/02 Basics/02 Starting Project"
+          cd "code/02 Basics/02 Starting Project"
           npm install
       - name: run unit tests
         run: |
-          cd "test/code/02 Basics/02 Starting Project"
+          cd "code/02 Basics/02 Starting Project"
           npm test
