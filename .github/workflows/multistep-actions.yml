@@ -1,0 +1,15 @@
+name: multiline-workflow
+on: workflow_dispatch
+jobs:
+  multiline-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: |
+          pwd
+          echo $HOME
+      - name: step2
+        run: |
+          ls /
+          ls /tmp
+          
